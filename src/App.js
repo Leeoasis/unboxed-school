@@ -1,15 +1,19 @@
-import logo from './logo.svg';
+import logo from './unboxedlogo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>
-          Unboxed Autism Christian School
-        </h1>
+        <img src={logo} className="App-logo" alt="logo" />
+        {/* <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p> */}
         <a
-
+          className="App-link"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Under Construction, Coming Soon!
         </a>
