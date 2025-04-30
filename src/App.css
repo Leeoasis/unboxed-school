@@ -1,57 +1,53 @@
-.App {
-  text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.App-logo {
-  height: 35vmin;
-  pointer-events: none;
-  transition: transform 0.3s ease-in-out;
-  margin-bottom: 2rem; /* Space between logo and message */
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background: linear-gradient(135deg, #1e1f26, #2d2f39);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  font-size: calc(12px + 1.5vmin);
-  color: #f5f5f5;
-}
-
-.App-link {
-  color: #61dafb;
-  background: transparent;
-  border: 2px solid #61dafb;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 1.8rem; /* Bigger message */
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.App-link:hover {
-  background-color: #61dafb;
-  color: #282c34;
-  transform: scale(1.05);
-}
-
-@keyframes App-logo-spin {
+@keyframes fadeInUp {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+
+@keyframes backgroundSlide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+.animate-tagline {
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0.5s;
+}
+
+.animate-heading {
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0.75s;
+}
+
+.animate-description {
+  animation: fadeInUp 1s forwards;
+  animation-delay: 1s;
+}
+
+.animate-rich-description {
+  animation: fadeInUp 1s forwards;
+  animation-delay: 1.25s;
+}
+
+.animate-features {
+  animation: fadeInUp 1s forwards;
+  animation-delay: 1.5s;
+}
+
+.animate-actions {
+  animation: fadeInUp 1s forwards;
+  animation-delay: 1.75s;
+}
+
+.animate-background {
+  animation: backgroundSlide 30s infinite linear;
 }
