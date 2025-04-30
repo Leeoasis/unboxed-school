@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCheckCircle, FaUserShield, FaHandsHelping, FaLightbulb } from 'react-icons/fa';
+import { FaUserShield, FaHandsHelping, FaLightbulb } from 'react-icons/fa';
 import heroImage from '../assets/images/unboxedabout.png';
 import WhyChooseUs from '../components/homeComponents/WhyChooseUs';
 

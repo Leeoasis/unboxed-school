@@ -65,6 +65,7 @@ const ContactPage = () => {
             <p className="mb-4"><strong>Email:</strong> info@unboxedschool.co.za</p>
             <div className="w-full h-64 rounded-lg mt-4">
               <iframe
+                title="Google Maps Location of Unboxed Autism Christian School" // Added title attribute
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.490038741079!2d-122.08092208469228!3d37.3886306798281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb61f611334e7%3A0xb75b40cc0162626f!2sGoogleplex!5e0!3m2!1sen!2sus!4v1635236437225!5m2!1sen!2sus"
                 style={{
                   border: 0,
